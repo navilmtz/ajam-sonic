@@ -114,7 +114,7 @@ const Header = () => {
                 <div className={`wrap-menu-desktop ${scroll ? "fix-menu-desktop m-t-0" : "m-t-40"}`}>
                     <nav className="limiter-menu-desktop p-l-10">
                         {/* Logo desktop */}
-                        <Link href="/" className="logo">
+                        <Link href="/" className="logo m-l-30">
                             <Image src="/images/logo-black.png" alt="IMG-LOGO" width={180} height={65} priority/>
                         </Link>
                         {/* Menu desktop */}
@@ -147,7 +147,7 @@ const Header = () => {
                                 <Link href="/contact">Contact</Link>
                             </li>
                         </ul>
-                        <div className="left-top-bar">
+                        <div className="left-top-bar m-r-30">
                             <i className="fa fa-phone icon-phone"/>
                             <span className="phone-number">
                                <a href="tel:(267) 323-5005" style={{ color: '#000', textDecoration: 'none' }}> (267) 323-5005</a>
