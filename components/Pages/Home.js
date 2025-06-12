@@ -44,7 +44,7 @@ const Home = () => {
                             navigation 
                         >
                             {bannerApi.acf.home_section_1_images.map((img)=>(
-                                <SwiperSlide>
+                                <SwiperSlide key={img.image}>
                                     <Image width={400} height={100} src={img.image} alt="Ketron America Logo" className="mx-auto" /> 
                                 </SwiperSlide>
                             ))}
@@ -65,7 +65,7 @@ const Home = () => {
                                 navigation 
                             >
                                 {bannerApi.acf.home_section_2_images.map((img)=>(
-                                    <SwiperSlide>
+                                    <SwiperSlide key={img.image}>
                                         <Image width={400} height={100} src={img.image} alt="Ketron America Logo" className="mx-auto" /> 
                                     </SwiperSlide>
                                 ))}
