@@ -31,7 +31,7 @@ const Home = () => {
             <BannerSlider bannerApi={bannerApi.acf.banner_slider} />
             <div className="container mx-auto m-t-50 px-4">
                 <div className="row justify-content-center align-items-center">
-                    <div className="text-center mb-8 col-sm-5 col-xs-12">
+                    <div className="text-center mb-8 col-sm-7 col-xs-12">
                         <h2 className="text-3xl txt-left  font-bold mb-4">{bannerApi.acf.home_section_1_title}</h2>
                         <p className="txt-left ">{bannerApi.acf.home_section_1_desc}</p>
                     </div>
