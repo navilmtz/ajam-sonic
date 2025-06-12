@@ -23078,3 +23078,11 @@ input.num-product::-webkit-inner-spin-button {
     content: 'prev';
     font-size: 30px !important;
 }
+
+.header-v3 .wrap-menu-desktop {
+    background-color: #ffffff75 !important;
+}
+
+.wrap-menu-desktop.fix-menu-desktop {
+    background: #fff !important;
+}
