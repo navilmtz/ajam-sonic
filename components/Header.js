@@ -115,7 +115,7 @@ const Header = () => {
                     <nav className="limiter-menu-desktop p-l-10">
                         {/* Logo desktop */}
                         <Link href="/" className="logo m-l-30">
-                            <Image src="/images/logo-black.png" alt="IMG-LOGO" width={180} height={65} priority/>
+                            <Image src="/images/KAM-Logo.png" alt="IMG-LOGO" width={180} height={65} priority/>
                         </Link>
                         {/* Menu desktop */}
                         <ul className="main-menu m-auto">

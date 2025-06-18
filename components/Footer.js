@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-sm-6 col-lg-4 ">
                         <div className="p-2 size-201">
-                            <Image width={1000} height={1000} src="/images/logo-grey.png" alt="ICON-PAY" />
+                            <Image width={1000} height={1000} src="/images/KAM-Logo-Footer.png" alt="ICON-PAY" />
                         </div>
                     </div>
                     <div className="col-sm-6 col-lg-2 ">
