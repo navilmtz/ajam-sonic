@@ -8,7 +8,7 @@ const ModuleSection = ({categoryApi}) => {
         <div className="container">
             <div className="p-b-32">
               <h3 className="ltext-105 cl5 txt-center respon1">
-                Instrument Categories
+                Musical Instrument Categories
               </h3>
             </div>
             <div className="row">

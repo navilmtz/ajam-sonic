@@ -21,7 +21,7 @@ const ProductCategories = () => {
     <>
         <section className="bg-img1 txt-center p-lr-15 p-tb-92" style={{backgroundImage: 'url("/images/download-bg.jpg")'}}>
             <h2 className="ltext-105 p-t-50 cl0 txt-center">
-                Product Categories
+                Musical Instrument Categories
             </h2>
         </section>
         <div className="sec-banner bg0 p-t-80 p-b-50">

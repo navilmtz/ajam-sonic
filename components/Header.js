@@ -126,7 +126,7 @@ const Header = () => {
                                 <Link href="/why-ajamsonic">Why AjamSonic</Link>
                             </li>
                             <li className={'/products' == pathname ? 'active-menu' : ''}>
-                                <Link href="/products">Products </Link>
+                                <Link href="/products">Musical Instruments </Link>
                             </li>
                             <li className={'/documents' == pathname ? 'active-menu' : ''}>
                                 <Link href="/documents">Documents</Link>
