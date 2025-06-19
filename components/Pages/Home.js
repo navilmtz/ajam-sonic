@@ -90,6 +90,13 @@ const Home = () => {
                             </button>
                         </a>
                     </div>
+                    <div className="text-center mb-8 col-sm-5 col-xs-12">
+                        <a href={bannerApi.acf.button_2_link}>
+                            <button className="btn ">
+                                <h4 className=" txt-center bg-btn  bg1 p-4 fs-18 mb-4">{bannerApi.acf.button_2_text}</h4>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
             

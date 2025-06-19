@@ -30,7 +30,7 @@ const BannerSlider =  ({bannerApi}) => {
                                     <div className="container-fluid h-full">
                                         <div className='row justify-content-end'>
                                             {/* pt-200 by deepak */}
-                                            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 flex-col-l-m h-full  p-t-200 p-b-30">
+                                            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 flex-col-l-m h-full  p-t-170 p-b-30">
                                                 <div className="layer-slick1 animated ">
                                                     <span className="text-6xl  cl2 respon2">
                                                         <AutoResizingText htmlContent={bannerApi[0].banner_title} />
