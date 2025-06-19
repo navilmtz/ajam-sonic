@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 const AutoResizingText = ({ htmlContent }) => {
   const containerRef = useRef(null);
   const textRef = useRef(null);
-  const [fontSize, setFontSize] = useState(30); // Initial max font size
+  const [fontSize, setFontSize] = useState(40); // Initial max font size
 
   useEffect(() => {
     const resizeText = () => {
@@ -11,7 +11,7 @@ const AutoResizingText = ({ htmlContent }) => {
       const textEl = textRef.current;
       if (!container || !textEl) return;
 
-      let currentFontSize = 30;
+      let currentFontSize = 40;
       textEl.style.fontSize = `${currentFontSize}px`;
 
       while (
@@ -47,7 +47,7 @@ const AutoResizingText = ({ htmlContent }) => {
     >
       <div
         ref={textRef}
-        style={{ fontSize: `${fontSize}px`, lineHeight: '1.2' }}
+        style={{ fontSize: `${fontSize}px`, lineHeight: '1.2',fontFamily:'Poppins-Regular', fontWeight:'normal'}}
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
     </div>

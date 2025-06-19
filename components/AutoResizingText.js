@@ -47,7 +47,7 @@ const AutoResizingText = ({ htmlContent }) => {
     >
       <div
         ref={textRef}
-        style={{ fontSize: `${fontSize}px`, lineHeight: '1.2' }}
+        style={{ fontSize: `${fontSize}px`, lineHeight: '1.2',fontFamily:'sans-serif' }}
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
     </div>

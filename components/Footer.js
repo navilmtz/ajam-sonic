@@ -59,7 +59,7 @@ const Footer = () => {
                                 <Link style={{'color' : '#fff'}} className="stext-107 cl7 hov-cl1 trans-04" href="/why-ajamsonic">WHY AJAMSONIC</Link>
                             </li>
                             <li className="p-b-10">
-                                <Link style={{'color' : '#fff'}} className="stext-107 cl7 hov-cl1 trans-04" href="/products">Musical Instruments</Link>
+                                <Link style={{'color' : '#fff'}} className="stext-107 cl7 hov-cl1 trans-04" href="/products">MUSICAL INSTRUMENTS</Link>
                             </li>
                             <li className="p-b-10">
                                 <Link style={{'color' : '#fff'}} className="stext-107 cl7 hov-cl1 trans-04" href="/services">SERVICES</Link>

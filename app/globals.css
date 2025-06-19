@@ -23086,3 +23086,11 @@ input.num-product::-webkit-inner-spin-button {
 .wrap-menu-desktop.fix-menu-desktop {
     background: #fff !important;
 }
+
+.homebutton {
+    min-width: 414px;
+    margin: auto;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
