@@ -44,6 +44,12 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins-Regular';
+}
+
 @font-face {
     font-family: Poppins-Regular;
     src: url('/fonts/Poppins/Poppins-Regular.ttf');

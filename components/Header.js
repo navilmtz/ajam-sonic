@@ -115,7 +115,7 @@ const Header = () => {
                     <nav className="limiter-menu-desktop p-l-10">
                         {/* Logo desktop */}
                         <Link href="/" className="logo m-l-30">
-                            <Image src="/images/KAMLogo.png" alt="IMG-LOGO" width={180} height={65} priority/>
+                            <Image src="/images/logo.jpeg" alt="IMG-LOGO" width={180} height={65} priority/>
                         </Link>
                         {/* Menu desktop */}
                         <ul className="main-menu m-auto">
@@ -165,7 +165,7 @@ const Header = () => {
             <div className="wrap-header-mobile">
                 <div className="logo-mobile">
                     <Link href="/">
-                        <Image src="/images/logo.png" alt="IMG-LOGO"  width={150} height={55} priority/>
+                        <Image src="/images/logo.jpeg" alt="IMG-LOGO"  width={150} height={55} priority/>
                     </Link>
                 </div>
                 <div className="wrap-icon-header flex-w flex-r-m h-full m-r-15">

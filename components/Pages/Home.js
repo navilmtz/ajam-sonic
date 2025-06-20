@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="row justify-content-center align-items-center">
                     <div className="text-center mb-8 col-sm-7 col-xs-12">
                         <h2 className="text-3xl txt-left  font-bold mb-4">{bannerApi.acf.home_section_1_title}</h2>
-                        <p className="txt-left ">{bannerApi.acf.home_section_1_desc}</p>
+                        <p className="txt-left " style={{fontSize:'17px',fontFamily:'Poppins-Regular', fontWeight:'normal'}}>{bannerApi.acf.home_section_1_desc}</p>
                     </div>
                     <div className="text-center mb-8 col-sm-4 col-xs-12">
                         <Swiper
@@ -73,7 +73,7 @@ const Home = () => {
                         </div>
                         <div className="text-center mb-8 col-sm-7 col-xs-12 ">
                             <h2 className="text-3xl txt-left  font-bold mb-4">{bannerApi.acf.home_section_2_title}</h2>
-                            <p className="txt-left ">{bannerApi.acf.home_section_2_desc}</p>
+                            <p className="txt-left " style={{fontSize:'17px',fontFamily:'Poppins-Regular', fontWeight:'normal'}}>{bannerApi.acf.home_section_2_desc}</p>
                         </div>
                     </div>
                </div>
