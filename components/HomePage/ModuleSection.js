@@ -33,7 +33,7 @@ const ModuleSection = ({categoryApi}) => {
                         >
                         <div className="block1-txt-child1 flex-col-l">
                             <span className="block1-name ltext-102 trans-04 p-b-8">
-                            <div dangerouslySetInnerHTML={{ __html: category.name }} />
+                                <div style={{fontFamily:'Poppins-Bold'}}  dangerouslySetInnerHTML={{ __html: category.name }} />
                             </span>
                             <span className="block1-info stext-102 trans-04">
                             {category.acf.category_subtitle}
