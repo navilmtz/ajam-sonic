@@ -23066,10 +23066,10 @@ input.num-product::-webkit-inner-spin-button {
     border-radius: 30px;
     padding: 10px 20px;
     color: #ffffff;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 16px;
     align-items: center;
-    min-height: 88px;
+    min-height: 70px;
     text-decoration: none;
 }
 

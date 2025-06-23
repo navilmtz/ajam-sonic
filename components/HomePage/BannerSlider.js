@@ -33,7 +33,10 @@ const BannerSlider =  ({bannerApi}) => {
                                             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-5 flex-col-l-m h-full  p-t-170 p-b-30">
                                                 <div className="layer-slick1 animated ">
                                                     <span className="text-6xl  cl2 respon2">
-                                                        <AutoResizingText htmlContent={bannerApi[0].banner_title} />
+                                                    <h1
+                                                        style={{fontSize:'34px'}}
+                                                        dangerouslySetInnerHTML={{ __html: bannerApi[0].banner_title }}
+                                                    ></h1>
                                                     </span>
                                                 </div>
                                                 <div className="layer-slick1 animated slideDown">

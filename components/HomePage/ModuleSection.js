@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ModuleSection = ({categoryApi}) => {
   return (
-    <div className="sec-banner bg0 p-t-80 p-b-50">
+    <div className="sec-banner bg0 p-t-80 p-b-30">
         <div className="container">
             <div className="p-b-32">
               <h3 className="ltext-105 cl5 txt-center respon1">
