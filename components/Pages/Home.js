@@ -86,14 +86,14 @@ const Home = () => {
                     <div className="text-center mb-8 col-sm-4 col-xs-12">
                         <a href={bannerApi.acf.button_1_link}>
                             <button className="btn ">
-                                <h4 className=" txt-center bg-btn  bg1 p-2 fs-18 mb-4 homebutton">{bannerApi.acf.button_1_text}</h4>
+                                <h4 className=" txt-center bg-btn  bg1 fs-18 mb-4 homebutton">{bannerApi.acf.button_1_text}</h4>
                             </button>
                         </a>
                     </div>
                     <div className="text-center mb-8 col-sm-4 col-xs-12 ">
                         <a href={bannerApi.acf.button_2_link}>
                             <button className="btn ">
-                                <h4 className=" txt-center bg-btn  bg1 p-2 fs-18 mb-4 homebutton">{bannerApi.acf.button_2_text}</h4>
+                                <h4 className=" txt-center bg-btn  bg1 fs-18 mb-4 homebutton">{bannerApi.acf.button_2_text}</h4>
                             </button>
                         </a>
                     </div>

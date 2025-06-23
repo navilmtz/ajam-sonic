@@ -23100,4 +23100,12 @@ input.num-product::-webkit-inner-spin-button {
     display: flex;
     vertical-align: middle;
     justify-content: center;
+    padding: 0.5rem 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .homebutton {
+        min-width: 100% !important;
+        padding: 0 20px !important;
+    }
 }
