@@ -83,14 +83,14 @@ const Home = () => {
     
             <div className="container mx-auto m-t-20 m-b-50 px-4">
                 <div className="row justify-content-center">
-                    <div className="text-center mb-8 col-sm-5 col-xs-12">
+                    <div className="text-center mb-8 col-sm-4 col-xs-12">
                         <a href={bannerApi.acf.button_1_link}>
                             <button className="btn ">
                                 <h4 className=" txt-center bg-btn  bg1 p-4 fs-18 mb-4 homebutton">{bannerApi.acf.button_1_text}</h4>
                             </button>
                         </a>
                     </div>
-                    <div className="text-center mb-8 col-sm-5 col-xs-12 ">
+                    <div className="text-center mb-8 col-sm-4 col-xs-12 ">
                         <a href={bannerApi.acf.button_2_link}>
                             <button className="btn ">
                                 <h4 className=" txt-center bg-btn  bg1 p-4 fs-18 mb-4 homebutton">{bannerApi.acf.button_2_text}</h4>

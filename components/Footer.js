@@ -87,18 +87,52 @@ const Footer = () => {
                             <span style={{'color' : '#fff'}}>Phone:</span> <Link href="tel:2673235005" style={{'color' : '#fff'}} className="hover:no-underline">(267) 323-5005</Link><br></br>
                             Email: <Link href="mailto:ajaminc@gmail.com" style={{'color' : '#fff'}} className="hover:no-underline">ajaminc@gmail.com</Link></span>
                         </p>
-                        <div className="p-t-27">
-                            <Link href="https://www.facebook.com/KetronUSA/" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <i className="fa fa-facebook"></i>
+                        <div className="flex-w p-t-27">
+                            <div className="h-full  p-t-5">
+                                <Link href="https://www.facebook.com/KetronUSA/" target="_blank">
+                                    <div className="icon-header-item cl2 hov-cl1 trans-04 p-r-11 " >
+                                        {/* <i className="fa fa-facebook"></i> */}
+                                        <Image src="/images/icons/fb.png" alt="fb" width={30} height={30} priority/>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="h-full  p-t-5">
+                                <Link href="https://www.tiktok.com/@ketronusa" target="_blank">
+                                    <div className="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 ">
+                                    <Image src="/images/icons/tiktok.png" alt="tiktok" width={30} height={30} priority/>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="h-full  p-t-5 ">
+                                <Link href="https://www.youtube.com/@AjamSonic" target="_blank">
+                                    <div className="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 ">
+                                    <Image src="/images/icons/youtube.png" alt="youtube" width={30} height={30} priority/>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="h-full  p-t-5">
+                                <Link href="https://www.instagram.com/ajamsonic/" target="_blank">
+                                    <div className="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 ">
+                                    <Image src="/images/icons/insta.png" alt="insta" width={30} height={30} priority/>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="flex-w p-t-27">
+                            <Link href="#" className="m-all-1">
+                                <Image width={30} height={30} src="/images/icons/icon-pay-01.png" alt="ICON-PAY" />
                             </Link>
-                            <Link href="https://www.tiktok.com/@ketronusa" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <FontAwesomeIcon icon={faTiktok} />
+                            <Link href="#" className="m-all-1">
+                                <Image width={30} height={30} src="/images/icons/icon-pay-02.png" alt="ICON-PAY" />
                             </Link>
-                            <Link href="https://www.youtube.com/@AjamSonic" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <i className="fa fa-youtube-play" />
+                            <Link href="#" className="m-all-1">
+                                <Image width={30} height={30} src="/images/icons/icon-pay-03.png" alt="ICON-PAY" />
                             </Link>
-                            <Link href="https://www.instagram.com/ajamsonic/" className="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-                            <i className="fa fa-instagram" />
+                            <Link href="#" className="m-all-1">
+                                <Image width={30} height={30} src="/images/icons/icon-pay-04.png" alt="ICON-PAY" />
+                            </Link>
+                            <Link href="#" className="m-all-1">
+                                <Image width={30} height={30} src="/images/icons/icon-pay-05.png" alt="ICON-PAY" />
                             </Link>
                         </div>
                     </div>
@@ -117,23 +151,6 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="p-t-30">
-                    <div className="flex-c-m flex-w p-b-18">
-                        <Link href="#" className="m-all-1">
-                            <Image width={30} height={30} src="/images/icons/icon-pay-01.png" alt="ICON-PAY" />
-                        </Link>
-                        <Link href="#" className="m-all-1">
-                            <Image width={30} height={30} src="/images/icons/icon-pay-02.png" alt="ICON-PAY" />
-                        </Link>
-                        <Link href="#" className="m-all-1">
-                            <Image width={30} height={30} src="/images/icons/icon-pay-03.png" alt="ICON-PAY" />
-                        </Link>
-                        <Link href="#" className="m-all-1">
-                            <Image width={30} height={30} src="/images/icons/icon-pay-04.png" alt="ICON-PAY" />
-                        </Link>
-                        <Link href="#" className="m-all-1">
-                            <Image width={30} height={30} src="/images/icons/icon-pay-05.png" alt="ICON-PAY" />
-                        </Link>
-                    </div>
                     <p className="stext-107 cl6 txt-center">
                         Copyright © All rights reserved  
                     </p>

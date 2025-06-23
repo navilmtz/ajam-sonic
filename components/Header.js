@@ -67,14 +67,12 @@ const Header = () => {
             <div className="container-menu-desktop ">
             {/* Topbar  add-top-bar by Deepak*/}
 			<div className="top-bar">
-				<div className="content-topbar flex-sb-m h-full container-fluid">
-					<div className="right-top-bar flex-w h-full">
-						 {/* Icon header */}
+				<div className="content-topbar flex-sb-m h-full container-fluid justify-content-end">
+					{/* <div className="right-top-bar flex-w h-full">
                          <div className="wrap-icon-header flex-w flex-r-m h-full">
                             <div className="flex-c-m h-full  p-t-5">
                                 <Link href="https://www.facebook.com/KetronUSA/" target="_blank">
                                     <div className="icon-header-item cl2 hov-cl1 trans-04 p-lr-11 " >
-                                        {/* <i className="fa fa-facebook"></i> */}
                                         <Image src="/images/icons/fb.png" alt="fb" width={30} height={30} priority/>
                                     </div>
                                 </Link>
@@ -101,7 +99,7 @@ const Header = () => {
                                 </Link>
                             </div>
                         </div>
-					</div>
+					</div> */}
                     <div className="left-top-bar">
                         <img src="https://flagcdn.com/us.svg" alt="US Flag" className="flag"/>
                         <span className="white-text">
